@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="charset" content="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="miromiro">
+        <meta name="keywords" content="cafe, cafes, saches, maquinas de cafe, maquinas de cafes, saches de cafe, saches de cafes, cafeina, cafeteira, cafeteiras">
+        <meta name="description" content="Loja on-line de sachês de café e cafeteiras!">
+        <title>Expresso do Café</title>
+        <link rel="stylesheet" type="text/css" href="css/sitecafe_p1.css">
+    </head>
+    <body>
+        <header>
+            <img class="imgLogo" src="img/Logo_Pequeno.png">
+            <ol class="ender">
+                <li>
+                    Avenida Mochaccino, 10
+                </li>
+                <li>
+                    Tel: (21) 91234-5678
+                </li>
+                <li>
+                    contato@coffee.com.br
+                </li>
+            </ol>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Inicial
+                    </a>
+                </li>
+                <li>
+                    <a href="historia.html">
+                        História
+                    </a>
+                </li>
+                <li>
+                    <a href="maquinas.html">
+                        Máquinas
+                    </a>
+                </li>
+                <li>
+                    <a href="saches.html">
+                        Sachês
+                    </a>
+                </li>
+                <li>
+                    <a href="compras.html">
+                        Compras
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section id="comp">
+            <form>
+                <div>
+                    <fieldset id="fsForm">
+                    <legend >Dados de identificação</legend>
+                    <label class="esq" for="nome">Nome:</label>
+                    <input class="esq" id="nome" type="text" name="nome">
+                    
+                    <label id="cpf" >CPF:</label>
+                    <input class="dir" id="cpf" type="text" name="cpf">
+                    
+                    <label class="esq">Telefone:</label>
+                    <input class="esq" id="tel" type="text" name="tel">
+                    
+                    <label>Email:</label>
+                    <input class="dir" id="email" type="text" name="email">
+                    
+                    <label class="esq">Endereço:</label>
+                    <input class="esq" id="end" type="text" name="end">
+                    
+                </fieldset>
+                <fieldset id="fsResDir">
+                    <legend>Forma de pagamento</legend>
+                    <br/>
+                    <input type="radio" name="cartao">
+                    <label>Cartâo</label>
+                    <input type="radio" name="cartao">
+                    <label>Cheque</label>
+                    <input type="radio" name="cartao">
+                    <label>Dinheiro</label>
+                    <br/><br/><br/>
+                    <fieldset>
+                        <legend>Dados do cartâo</legend>
+                        <br/><br/>
+                        <input type="radio" name="cartao">
+                        <img class="cart" src="img/visa.png">
+                        <input type="radio" name="cartao">
+                        <img src="img/master.png">
+                        <input type="radio" name="cartao">
+                        <img src="img/amex.png">
+                        <br/><br/>
+                        <label id="validade0">Validade:</label>
+                        <input id="validade" type="text" name="validade"> /
+                        <input class="dados-dir" id="validade2" type="text" name="validade2">
+                        <br/><br/>
+                        <label id="num">Número:</label>
+                        <input id="num" type="text" name="num">
+                    </fieldset>
+                </fieldset>
+                <fieldset id="fsResEsq">
+                    <legend>Produtos</legend>
+                    <br/>
+                    <label for="select">Máquinas:</label>
+                    <select id="select" name="select">
+                        <optgroup label="Dulce Gusto">
+                            <option>Piccolo</option>
+                        </optgroup>
+                        
+                        <optgroup label="Nespresso">
+                            <option>Inissia C40</option>
+                            <option>U C50</option>
+                        </optgroup>
+                        
+                        <optgroup label="Senseo">
+                            <option>HD7811/96</option>
+                        </optgroup>
+                    </select>
+                    <br/><br/>
+                    <label for="select2">Sachês</label>
+                    <select id="select2" name="select2">
+                        <optgroup label="Dulce Gusto">
+                            <option>Exppresso</option>
+                            <option>Descafeinado</option>
+                        </optgroup>
+                        <optgroup label="Senseo">
+                            <option>Clássico</option>
+                            <option>Intenso</option>
+                        </optgroup>
+                        <optgroup label="Nespresso">
+                            <option>Livanto</option>
+                            <option>Ristretto</option>
+                            <option>Vanilio</option>
+                        </optgroup>
+                    </select>
+                    <br/><br/>
+                    <label for="bot-selec">Selecionados:</label>
+                    <button id="but-selec">Remover</button>
+                    <br/><br/>
+                    <textarea></textarea>
+                    <br/><br/>
+                    <label for="valor">Valor:</label>
+                    <input id="valor" type="text" name="valor">
+                </fieldset>    
+                </div>
+                
+                    
+            </form>
+            <button class="button">Limpar</button>
+            <button class="button">Enviar</button>
+            
+        </section>
+    </body>
+</html>

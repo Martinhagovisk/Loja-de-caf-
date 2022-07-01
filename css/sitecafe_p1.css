@@ -1,0 +1,194 @@
+@import url("https://use .typekit.net/mmb3xag.css");
+body{
+    background-image: url('../img/Fundo.jpg');
+    color: #FFEEBB;
+    font-size: 16px;
+    font-family: Verdana, Liberation, serif;
+}
+header{
+    display: block;
+    margin-bottom: 1px;
+}
+.imgLogo{
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+.ender{
+    text-align: right;
+    font-size: 16px;
+    line-height: 150%;
+    float: right;
+    list-style-type: none;
+}
+nav{
+    display: block;
+    width: 20%;
+    float: left;
+}
+nav ul{
+    color: #FFEEBB;
+    list-style-type: circle;
+    margin-top: 30px;
+    width: 100%;
+}  
+a:link{
+    text-decoration: none;
+    color: #FFEEBB;
+}
+a:visited{
+    text-decoration: none;
+    color: #DDCC99;
+}
+ol, ul{
+    line-height: 200%;
+}
+section{
+    display: block;
+    width: 77%;
+    float: right;
+    text-align: center;
+}
+#imgLogo{
+    width: 55%;
+    align-items: center;
+}
+.apres{
+    text-align: center;
+}
+h1{
+    text-align: left;
+    font-size: 2rem;
+}
+.hist{
+    font-size: 2rem;
+    text-align: justify;
+}
+#imgdir{
+    float: right;
+    width: 250px;
+}
+#imgesq{
+    float: left;
+    width: 250px;
+}
+#fonte{
+    text-align: right;
+    
+}
+ol#saches{
+    text-align: justify;
+}
+#tabinfo{
+    border-style: solid;
+    border-collapse: collapse;
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    color: #573218;
+}
+th,td{
+    border-style: solid;
+    border: 2px;
+    border-color: #664422;
+    padding: 6px 12px 6px 12px;
+}
+.preco{
+    color: #CC0000;
+    vertical-align: middle;
+    text-decoration-style: bold;
+}
+.linTH{
+    background-color: #907968; 
+    color:#FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+}
+.colTH{
+    background-color: #EACEAC;
+    color: #573218;
+    text-align: left;
+}
+#comp{
+    float: left;
+    width: 43%;
+}
+fieldset{
+    background-color: #907968;
+
+}
+
+#fsForm{
+    clear: both;
+    width: 536px;
+}
+#fsResDir{
+    float: right;
+    width: 280px;
+    height: 280px;
+}
+#fsResEsq{
+    float: left;
+    width: 200px;
+    height: 280px;
+}
+textarea{
+    width: 200px; 
+    height: 80px;
+}
+#valor{
+    width: 120px;
+    float: right;
+}
+.esq{
+    float: left;
+}
+.dir{
+    align-items: right;
+}
+#nome{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 200px;
+}
+#cpf{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 126px;
+}
+#tel{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 120px;
+}
+#email{
+    margin-bottom: 10px;
+    width: 200px;
+}
+#end{
+    margin-left: 15px;
+    width: 400px;
+}
+#validade0{
+    float: left;
+    margin-right: 10px;
+}
+#validade{
+    float: left;
+    width: 10px;
+}
+#validade2{
+    width: 30px;
+}
+.dados-dir{
+    float: right;
+}
+.button{
+    float: right;
+    margin: 10px;
+
+}
+#num{
+    float: left;
+    width: 80px;
+}
